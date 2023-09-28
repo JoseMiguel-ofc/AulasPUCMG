@@ -1,3 +1,4 @@
+
 # Matriz de Rastreabilidade de Requisitos
 
 Uma ferramenta para garantir a cobertura e rastreabilidade de requisitos desde sua origem até a implementação e teste.
@@ -30,14 +31,14 @@ Uma ferramenta para garantir a cobertura e rastreabilidade de requisitos desde s
 
 | ID | Descrição | Fonte | ID Requisito Detalhado(s) | Entrega da EAP | Prioridade | Responsável | Comentários |
 |----|-----------|------|---------------------------|----------------|-----------|------------|------------|
-| RAL001 | Usuário deve poder fazer login no sistema | Documento | RD001, RD002 | Login | Alta | João Silva | Login com e sem 2FA |
-| RAL002 | Usuário deve poder visualizar seu perfil | Entrevista | RD003 | Perfil | Média | Maria Souza | Inclui foto e e-mail |
+| RAL001 | Usuário deve poder cadastrar colaborador no sistema | Cliente | RD001, RD002 | Cadastro colaborador | Média | José Miguel | Cadastro dos colaboradores pelo usuário |
+| RAL002 | Usuário deve poder cadastrar setores no sistema | Cliente | RD003 | Cadastro setor | Média | Joãozinho | Cadastro dos setores pelo usuário |
 
 ### 2. Requisitos Detalhados → Testes
 
 | ID | Descrição | ID Teste(s) | Entrega da EAP | Prioridade | Responsável | Status | Comentários |
 |----|-----------|------------|----------------|-----------|------------|-------|------------|
-| RD001 | Sistema deve aceitar credenciais válidas | T001 | Login | Alta | Pedro Costa | Completo | - |
-| RD002 | Sistema deve rejeitar credenciais inválidas | T002 | Login | Alta | Ana Lima | Em Progresso | Falha ocasional |
-| RD003 | Usuário deve ver nome, e-mail e data de cadastro | T003 | Perfil | Média | Roberto Alves | Não Iniciado | - |
+| RD001 | Sistema deve aceitar credenciais válidas | T001 | Cadastro | Média | José Miguel | Em Progresso | - |
+| RD002 | Sistema deve rejeitar credenciais inválidas | T002 | Cadastro | Alta | José Miguel | Em Progresso | Falha ocasional |
+| RD003 | Setor deve ver nome, local e responsável | T003 | Cadastro | Média | Joãozinho | Não Iniciado | - |
 
